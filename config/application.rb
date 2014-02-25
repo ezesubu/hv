@@ -27,6 +27,7 @@ module Hv
     config.assets.paths << "#{Rails.root}/app/assets"
     
 
-    config.action_view.javascript_expansions[:defaults] = %w(jquery rails)
+
+
   end
 end
